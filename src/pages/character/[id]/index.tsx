@@ -78,7 +78,7 @@ export default function CharacterInfo() {
                 </div>
             </div>
             <details open>
-                <summary>Episodes Appeared</summary>
+                <summary>Episodes Appearances</summary>
                 {
                     episodes?.map((episode: Episode, index) => {
                         return (
