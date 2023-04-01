@@ -43,6 +43,11 @@ export const ChracterContainer = styled.div`
     border-radius: 4px;
     overflow: hidden;
     position: relative;
+
+    & .image-container {
+        min-height: 300px;
+        min-width: 300px;
+    }
 `;
 
 export const CharacterDetails = styled.div`

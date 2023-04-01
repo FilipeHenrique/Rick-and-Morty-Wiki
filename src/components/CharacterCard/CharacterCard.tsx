@@ -9,7 +9,9 @@ export default function CharacterCard({ character }: {character: Character}) {
         <Container>
             <Link data-cy="link" href={`/character/${character.id}`} style={{ color: '#edecee', textDecoration: 'none' }}>
                 <ChracterContainer>
-                    <img className="character" src={character.image} />
+                    <div className="image-container">
+                        <img className="character" src={character.image} />
+                    </div>
                     <CharacterDetails>
                         <p className="name">{character.name}</p>
                         <div className="details-container">
