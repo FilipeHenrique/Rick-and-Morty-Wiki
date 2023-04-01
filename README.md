@@ -4,7 +4,7 @@
 
 Project built with [Next.js](https://nextjs.org/) as a practice with the [Rick and Morty API](https://rickandmortyapi.com) aiming to build a Rick and Morty Wiki.
 
-This project was deploayed at [Vercel](https://vercel.com) and can be accesed by clicking [here](https://rick-and-morty-wiki-chi.vercel.app).
+This project was deploayed at [Vercel](https://vercel.com) and can be accessed by clicking [here](https://rick-and-morty-wiki-chi.vercel.app).
 
 The first page consists into a list with pagination of all the characters from the series, including a search feature that searches globally for a character independent of the page he is located. 
 
@@ -12,7 +12,7 @@ There is also a feature of adding a character to favourites, which uses localsto
 
 ![Characters List](./readme_assets/homepage.png)
 
-When u click into a character you are redirected to a details page, containing the character information and the appeared episodes. In this page is also possible to toggle the favourite status of the character.
+When clicking into a character you are redirected to a details page, containing the character information and the appeared episodes. In this page is also possible to toggle the favourite status of the character.
 
 ![Characters Details](./readme_assets/charactersPage.png)
 
