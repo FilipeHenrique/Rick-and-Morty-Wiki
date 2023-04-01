@@ -34,6 +34,8 @@ export const SearchBar = styled.div`
         }
     }
 
-
+    @media (max-width: 768px) {
+        width: 90%;
+    }
 
 `
