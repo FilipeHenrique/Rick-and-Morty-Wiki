@@ -7,7 +7,6 @@ export default function CharacterCard({ character }: {character: Character}) {
 
     return (
         <Container>
-            <Star character={character}/>
             <Link data-cy="link" href={`/character/${character.id}`} style={{ color: '#edecee', textDecoration: 'none' }}>
                 <ChracterContainer>
                     <img className="character" src={character.image} />
@@ -22,6 +21,8 @@ export default function CharacterCard({ character }: {character: Character}) {
                     </CharacterDetails>
                 </ChracterContainer >
             </Link>
+
+            <Star character={character}/>
         </Container>
 
     );
