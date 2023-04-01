@@ -47,7 +47,7 @@ First of all install the dependencies by entering the project folder and running
 npm install
 ```
 
-To execute in development use the command:
+To execute in development mode use the command:
 
 ```bash
 npm run dev
