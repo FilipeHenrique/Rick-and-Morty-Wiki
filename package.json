@@ -1,0 +1,33 @@
+{
+  "name": "rick-and-morty",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  },
+  "dependencies": {
+    "@types/node": "18.15.10",
+    "@types/react": "18.0.30",
+    "@types/react-dom": "18.0.11",
+    "@types/styled-components": "^5.1.26",
+    "cypress": "^12.9.0",
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "react-query": "^3.39.3",
+    "styled-components": "^5.3.9"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^2.0.7",
+    "typescript": "^5.0.2"
+  }
+}
