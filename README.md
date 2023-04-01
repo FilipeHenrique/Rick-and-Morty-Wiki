@@ -16,6 +16,9 @@ When u click into a character you are redirected to a details page, containing t
 
 ![Characters Details](./readme_assets/charactersPage.png)
 
+In case you go into some invalid URL you will get the coolest 404 page
+![Characters Details](./readme_assets/404.png)
+
 ## Running the project
 
 First, run the development server:

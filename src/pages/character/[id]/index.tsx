@@ -30,7 +30,7 @@ export default function CharacterInfo() {
 
 
     if (isLoading) {
-        return <p>test</p>
+        return <></>
     }
 
     if (data?.error) {
