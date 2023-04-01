@@ -27,6 +27,10 @@ export default function CharactersList() {
   if (isLoading) {
     return (
       <PageContainer >
+        <div className="topbar-container">
+          <SearchFilter setData={setFilteredList} action={filterCharacter} refetch={refetch} />
+          <Paginator pagesNumber={pagesNumber} page={page} setPage={setPage} />
+        </div>
         <CharactersContainer >
           {
             Array.from(Array(20).keys()).map((x,index)=>{
