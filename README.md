@@ -42,7 +42,12 @@ In case you go into some invalid URL you will get the coolest 404 page
 
 ## Running the project
 
-First, run the development server:
+First of all install the dependencies by entering the project folder and running:
+```bash
+npm install
+```
+
+To execute in development use the command:
 
 ```bash
 npm run dev
